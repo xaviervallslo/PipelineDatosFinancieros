@@ -1,8 +1,8 @@
-### 📈 Fidelity Fund NAV Scraper
+## 📈 Fidelity Fund NAV Scraper
 
 Script en Python que **extrae automáticamente el NAV (valor liquidativo) y la fecha** de un fondo de Fidelity (ISIN `IE00BYX5NX33`) desde fuentes oficiales, los **normaliza al formato europeo** y los **almacena en un Excel histórico** sin duplicar registros.
 
-#### ✨ Funcionalidades
+# ✨ Funcionalidades
 
 * Obtiene el **NAV y fecha** desde la API oficial de Fidelity.
 * Formatea:
@@ -13,7 +13,7 @@ Script en Python que **extrae automáticamente el NAV (valor liquidativo) y la f
 * Evita **duplicados por fecha**.
 * Ideal para **seguimiento histórico diario**.
 
-#### 🛠️ Tecnologías
+# 🛠️ Tecnologías
 
 * Python
 * `requests`
@@ -21,9 +21,7 @@ Script en Python que **extrae automáticamente el NAV (valor liquidativo) y la f
 * `datetime`
 * Excel (`.xlsx`)
 
-#### 📂 Resultado
-
+# 📂 Resultado
 Archivo `Historical_NAVs_IE00BYX5NX33.xlsx` con histórico ordenado y actualizado automáticamente.
 
-Simple, reproducible y listo para automatizar.
 
