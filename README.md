@@ -12,7 +12,7 @@ Script en Python que **extrae automáticamente el NAV (valor liquidativo) y la f
 * Evita **duplicados por fecha**.
 * Ideal para seguimiento histórico diario.
 
-⏱️ Automatización diaria
+#⏱️ Automatización diaria
 
 El proyecto incluye un archivo .bat que permite ejecutar el script de Python automáticamente cada día a las 08:00, pensado para su uso con el Programador de tareas de Windows.
 Esto permite:
