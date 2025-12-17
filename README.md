@@ -4,23 +4,25 @@ Script en Python que **extrae automáticamente el NAV (valor liquidativo) y la f
 
 # ✨ Funcionalidades
 
-* Obtiene el **NAV y fecha** desde la API oficial de Fidelity.
+* Obtiene el *NAV y fecha* desde la API oficial de Fidelity.
 * Formatea:
-
-  * Fecha → `DD/MM/YYYY`
-  * Precio → coma decimal (`12,4299`)
-* Inserta el nuevo dato en la **primera fila** del Excel.
+  * Fecha → DD/MM/YYYY
+  * Precio → coma decimal 12,4299
+* Inserta el nuevo dato en la *primera fila* del Excel.
 * Evita **duplicados por fecha**.
-* Ideal para **seguimiento histórico diario**.
+* Ideal para seguimiento histórico diario.
 
 # 🛠️ Tecnologías
 
 * Python
-* `requests`
-* `pandas`
-* `datetime`
-* Excel (`.xlsx`)
+* requests
+* pandas
+* datetime
+* Excel
+* bat
+* CMD
 
+  
 # 📂 Resultado
 Archivo `Historical_NAVs_IE00BYX5NX33.xlsx` con histórico ordenado y actualizado automáticamente.
 
