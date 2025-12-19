@@ -1,4 +1,4 @@
-# 📈 Fidelity Fund NAV Scraper 
+# 📈 Fidelity Fund NAV Scraper
 
 Script en Python que extrae automáticamente el NAV (valor liquidativo) y la fecha de un fondo de Fidelity ISIN IE00BYX5NX33 desde fuentes oficiales mediante webscraping , los normaliza al formato europeo y los almacena en un Excel histórico sin duplicar registros.
 
