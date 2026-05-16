@@ -6,7 +6,7 @@ Script en Python que extrae automáticamente el NAV (valor liquidativo) y la fec
 
 * Obtiene el NAV y fecha desde la API oficial de Fidelity.
 * Formatea:
-  * Fecha → DD/MM/YYYY
+  * Fecha → DD/MM/YYYY 
   * Precio → coma decimal XX,XXXX
 * Inserta el nuevo dato en la primera fila* del Excel.
 * Evita duplicados por fecha. 
