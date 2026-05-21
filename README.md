@@ -6,7 +6,7 @@ Script en Python que extrae automáticamente el NAV (valor liquidativo) del fond
 
 ## ¿Qué hace?
 
-- 🔗 Consulta la **API oficial de Fidelity España** como fuente principal de datos
+- 🔗 Consulta mediante web scraping la **web oficial de Fidelity** como fuente principal de datos
 - 🗓️ Formatea la fecha → `DD/MM/YYYY` con traducción automática de meses
 - 💶 Formatea el precio → formato europeo con coma decimal `XX,XXXX €`
 - 📥 Inserta el nuevo dato en la **primera fila del Excel**, ordenado de más reciente a más antiguo
@@ -15,17 +15,6 @@ Script en Python que extrae automáticamente el NAV (valor liquidativo) del fond
 
 ---
 
-**Paso a paso:**
-
-1. **Fidelity publica el NAV** cada día hábil con un día de retraso (D-1)
-2. **El `.bat` lanza el script** automáticamente a las 08:00h via Task Scheduler
-3. **El script llama a la API** de `fondosfidelity.es` y extrae el valor y la fecha
-4. **Normaliza los datos** al formato europeo (coma decimal, fecha DD/MM/YYYY)
-5. **Comprueba el Excel**: si la fecha no existe, inserta la fila al principio
-6. **Guarda el Excel** con el nuevo registro incluido
-7. **Power BI** lee el Excel actualizado y refleja el nuevo dato en el dashboard al refrescar
-
----
 
 ## 📂 Estructura del repositorio
 
