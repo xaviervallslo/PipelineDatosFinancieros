@@ -31,12 +31,6 @@ Script en Python que extrae automáticamente el NAV (valor liquidativo) del fond
 
 El archivo `.pbix` conecta directamente con el Excel y muestra la evolución histórica del fondo desde 2018.
 
-![Dashboard](dashboard_preview.png)
-
-| Último precio | Precio máximo | Precio medio | Precio mínimo |
-|---|---|---|---|
-| 12,3103 € | 12,5120 € | 7,9559 € | 4,4976 € |
-
 ---
 
 ## 🛠️ Stack
