@@ -8,8 +8,6 @@ import seaborn as sns
 import plotly.express as px
 from bs4 import BeautifulSoup
 
-import missingno as msn
-
 import os
 import pandas as pd
 import requests
